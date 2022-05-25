@@ -38,7 +38,7 @@ This README file contains a description of what each script is doing.
 
 ./12-file_type
 : Prints the type of the file named iamafile found in /tmp directory
-
+i
 ./13-symbolic_link
 : Creates a symbolic link to /bin/ls named _ls_
 
@@ -50,4 +50,7 @@ This README file contains a description of what each script is doing.
 
 ./101-clean_emacs
 : Deletes all files in current directory that end with ~
+
+./102-tree
+: Creates the directories welcome/, welcome/to/ and welcome/to/school
 

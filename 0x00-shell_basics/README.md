@@ -36,3 +36,6 @@ This README file contains a description of what each script is doing.
 ./11-lists
 : Lists all files in the current, parent  and /boot directories in long format
 
+./12-file_type
+: Prints the type of the file named iamafile found in /tmp directory
+

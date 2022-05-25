@@ -15,3 +15,6 @@ This README file contains a description of what each script is doing.
 ./4-listmorefiles
 : Displays current directory's contents including hidden files in long format
 
+./5-listfilesgitonly
+: Displays current directory's contents including hidden files in long format with user and group IDs displayed numerically
+

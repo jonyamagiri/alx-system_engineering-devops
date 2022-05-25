@@ -15,6 +15,9 @@ This README file contains a description of what each script is doing.
 ./4-listmorefiles
 : Displays current directory's contents including hidden files in long format
 
-./5-listfilesgitonly
+./5-listfilesdigitonly
 : Displays current directory's contents including hidden files in long format with user and group IDs displayed numerically
+
+./6-first directory
+: Creates a directory named my_first_directory in the /tmp/ directory
 

@@ -44,3 +44,7 @@ This README file contains a description of what each script is doing.
 
 ./14-copy_html
 : Copies all HTML files in current directory to parent directory
+
+./100-lets_move
+: Moves all files beginning with an uppercase letter to the directory /tmp/u
+

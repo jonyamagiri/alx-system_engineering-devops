@@ -12,3 +12,6 @@ This README file contains a description of what each script is doing.
 ./3-listfiles
 : Displays current directory contents in long format
 
+./4-listmorefiles
+: Displays current directory's contents including hidden files in long format
+

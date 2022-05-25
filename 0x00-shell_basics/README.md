@@ -30,3 +30,5 @@ This README file contains a description of what each script is doing.
 ./9-firstdirdeletion
 : Deletes the directory my_first_directory
 
+./10-back
+: Changes the working directory to the previous one

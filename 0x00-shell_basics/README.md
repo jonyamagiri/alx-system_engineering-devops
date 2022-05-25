@@ -32,3 +32,7 @@ This README file contains a description of what each script is doing.
 
 ./10-back
 : Changes the working directory to the previous one
+
+./11-lists
+: Lists all files in the current, parent  and /boot directories in long format
+

@@ -42,3 +42,5 @@ This README file contains a description of what each script is doing.
 ./13-symbolic_link
 : Creates a symbolic link to /bin/ls named _ls_
 
+./14-copy_html
+: Copies all HTML files in current directory to parent directory

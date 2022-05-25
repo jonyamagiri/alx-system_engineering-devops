@@ -39,3 +39,6 @@ This README file contains a description of what each script is doing.
 ./12-file_type
 : Prints the type of the file named iamafile found in /tmp directory
 
+./13-symbolic_link
+: Creates a symbolic link to /bin/ls named _ls_
+

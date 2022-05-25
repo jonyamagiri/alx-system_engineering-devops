@@ -21,3 +21,6 @@ This README file contains a description of what each script is doing.
 ./6-first directory
 : Creates a directory named my_first_directory in the /tmp/ directory
 
+./7-movethatfile
+: Moves the file betty from /tmp/ to /tmp/my_first_directory
+

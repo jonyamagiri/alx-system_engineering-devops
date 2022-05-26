@@ -30,3 +30,6 @@ Sets permission to the file hello as follows: owner-no permission at all, group-
 **9-John_Doe**  
 Sets the mode of the file hello to: -rwxr-x-wx
 
+**10-mirror_permissions
+Sets the mode of the file hello the same as olleh's mode
+

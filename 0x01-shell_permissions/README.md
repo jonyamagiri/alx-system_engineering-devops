@@ -24,3 +24,6 @@ Adds execute permission to the owner and the group owner, and read permission to
 **7-everybody**  
 Adds execution permission to the owner, the group owner and the other users, to the file hello
 
+**8-James_Bond**  
+Sets permission to the file hello as follows: owner-no permission at all, group-no permission at all, others-all the permissions
+

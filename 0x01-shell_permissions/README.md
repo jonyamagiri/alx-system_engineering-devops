@@ -30,12 +30,16 @@ Sets permission to the file hello as follows: owner-no permission at all, group-
 **9-John_Doe**  
 Sets the mode of the file hello to: -rwxr-x-wx
 
-**10-mirror_permissions** 
+**10-mirror_permissions**   
 Sets the mode of the file hello the same as olleh's mode
 
 **11-directories_permissions**  
 Adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files will not be changed
 
-**12-directory_permissions**
+**12-directory_permissions**  
 Creates a directory called my_dir with permissions 751 in the working directory
+
+**13-change_group**  
+Changes the group owner to school for the file hello
+
 

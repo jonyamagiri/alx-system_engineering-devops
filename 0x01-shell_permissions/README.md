@@ -48,3 +48,6 @@ Changes the owner to vincent and the group owner to staff for all the files and 
 **101-symbolic_link_permissions**  
 Changes the owner and the group of _hello to vincent and staff respectively
 
+**102-if_only**  
+Changes the owner of the file hello to betty only if it is owned by the user guillaume
+

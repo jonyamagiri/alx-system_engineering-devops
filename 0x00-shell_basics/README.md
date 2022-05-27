@@ -37,3 +37,6 @@ This README file contains a description of what each of the shell-basics script 
 
 *102-tree*  : Creates the directories welcome/, welcome/to/ and welcome/to/school
 
+*103-commas*  : Lists all the files and directories of the current directory, separated by commas
+
+

@@ -39,4 +39,5 @@ This README file contains a description of what each of the shell-basics script 
 
 *103-commas*  : Lists all the files and directories of the current directory, separated by commas
 
+*school.mgc*  : Creates a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
 

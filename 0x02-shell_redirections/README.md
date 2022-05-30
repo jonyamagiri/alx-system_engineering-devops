@@ -11,3 +11,7 @@ This README file contains a description of what each script in the shell-redirec
 ***4-lastlines*** -  Displays the last 10 lines of /etc/passwd
 
 ***5-firstlines***  -  Displays the first 10 lines of /etc/passwd
+
+***6-third_line***  -  Displays the third line of the file iacta. The file iacta will be in the working directory. You’re not allowed to use sed
+
+

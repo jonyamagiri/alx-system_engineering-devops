@@ -26,4 +26,24 @@ This README file contains a description of what each script in the shell-redirec
 
 ***12-newest_files***  -  Displays the 10 newest files in the current directory [One file per line. Sorted from the newest to the oldest]
 
+***13-unique***  -  Takes a list of words as input and prints only words that appear exactly once. [Input format: One line, one word. Output format: One line, one word. Words should be sorted]
+
+***14-findthatword***  -  Displays lines containing the pattern “root” from the file /etc/passwd
+
+***15-countthatword***  -  Displays the number of lines that contain the pattern “bin” in the file /etc/passwd
+
+***16-whatsnext***  -  Displays lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
+
+***17-hidethisword***  -  Displays all the lines in the file /etc/passwd that do not contain the pattern “bin”
+
+***18-letteronly***  -  Displays all lines of the file /etc/ssh/sshd_config starting with a letter
+
+***19-AZ***  -  Replaces all characters A and c from input to Z and e respectively
+
+***20-hiago***  -  Removes all letters c and C from input
+
+***21-reverse***  -  Reverses its input
+
+***22-users_and_homes***  -  Displays all users and their home directories, sorted by users
+
 

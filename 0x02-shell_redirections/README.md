@@ -24,4 +24,6 @@ This README file contains a description of what each script in the shell-redirec
 
 ***11-directories***  -  Counts the number of directories and sub-directories in the current directory. The current and parent directories should not be taken into account. Hidden directories should be counted
 
+***12-newest_files***  -  Displays the 10 newest files in the current directory [One file per line. Sorted from the newest to the oldest]
+
 

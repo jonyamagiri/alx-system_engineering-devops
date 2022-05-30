@@ -22,4 +22,6 @@ This README file contains a description of what each script in the shell-redirec
 
 ***10-no_more_js***  -  Deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders
 
+***11-directories***  -  Counts the number of directories and sub-directories in the current directory. The current and parent directories should not be taken into account. Hidden directories should be counted
+
 

@@ -2,4 +2,6 @@ This README file contains a description of what each script in the shell-redirec
 
 ***0-hello_world***  -  Prints “Hello, World”, followed by a new line to the standard output
 
+***1-confused_smiley***  -  Displays a confused smiley "(Ôo)'
+
 

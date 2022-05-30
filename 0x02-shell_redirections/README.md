@@ -4,4 +4,6 @@ This README file contains a description of what each script in the shell-redirec
 
 ***1-confused_smiley***  -  Displays a confused smiley "(Ôo)'
 
+***2-hellofile***  -  Displays the content of the /etc/passwd file
+
 

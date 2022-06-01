@@ -53,4 +53,6 @@ This README file contains a description of what each script in the shell-redirec
 ***102-acrostic***  -  Decodes acrostics that use the first letter of each line. [The ‘decoded’ message has to end with a new line. You are not allowed to use grep, egrep, fgrep or rgrep]. 
 An acrostic is a poem (or other form of writing) in which the first letter (or syllable, or word) of each line (or paragraph, or other recurring feature in the text) spells out a word, message or the alphabet. The word comes from the French acrostiche from post-classical Latin acrostichis). As a form of constrained writing, an acrostic can be used as a mnemonic device to aid memory retrieval.
 
+***103-the_biggest_fan***  -  Parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests. [Order by number of requests, most active host or IP at the top. You are not allowed to use grep, egrep, fgrep or rgrep]
+
 

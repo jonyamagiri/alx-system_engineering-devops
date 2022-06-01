@@ -1,4 +1,4 @@
-This repo contains bash scripts for the following shell projects:
+This repository contains bash scripts for the following shell projects:
 
 0x00-shell_basics
 

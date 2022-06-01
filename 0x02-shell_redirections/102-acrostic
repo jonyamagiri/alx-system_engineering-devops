@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(cut -c 1 | paste -s)
+echo $(cut -c 1 | paste -s -d '\n')

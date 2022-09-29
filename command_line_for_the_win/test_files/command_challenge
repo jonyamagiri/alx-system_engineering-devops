@@ -1,0 +1,1574 @@
+Your first challenge is to print "hello world" on the terminal in a single command.
+Hint: There are many ways to print text on the command line, one way is with the 'echo' command. Try it below and good luck!
+echo hello world
+date +hello\ world
+echo 'hello world';
+cat<<<"hello world"
+rev<<<'dlrow olleh'
+printf "hello world"
+echo "hello world" ;
+cat <<<"hello world"
+cat<<< "hello world"
+echo ``hello world``
+printf 'hello world';
+echo -e "hello world"
+cat <<< "hello world"
+echo -n "hello world"
+/bin/echo hello world
+printf "hello world\n"
+printf 'hello world\n'
+a=hello\ world;echo $a
+echo "hello world" >&2
+printf "hello world" ;
+echo $NAME hello world
+printf "hello world" :
+echo -e "hello world";
+bash -nvc hello\ world
+echo $Name hello world
+rev <(echo dlrow olleh)
+printf "hello world\n";
+cat <(echo hello world)
+echo $tania hello world
+printf 'hello world\r\n'
+c="hello world"; echo $c
+echo 'hello world' | cat
+printf "%s" "hello world"
+echo -e $path hello world
+a="hello world" ; echo $a
+cat <<<"dlrow olleh" | rev
+H="hello world" && echo $H
+e="hello world" && echo $e
+D="hello world" && echo $D
+perl -E 'say "hello world"'
+printf "%s\n" "hello world"
+printf '%s\n' "hello world"
+sed -e '' <<< 'hello world'
+echo hello world 2>/dev/null
+h=hello; w=world; echo $h $w
+tr 'v' 'w' <<< "hello vorld"
+e=hello; c=world; echo $e $c
+time TIMEFORMAT=hello\ world
+awk '{print "hello world"}' *
+echo "hello world" > t | cat t
+
+
+Print the current working directory.
+pwd
+dirs
+pwd;
+pwd p
+pwd d
+pwd .
+pwd e
+pwd s
+pwd 2
+pwd ~
+pwd $
+pwd 1
+pwd *
+pwd a
+pwd i
+pwd f
+pwd 0
+pwd c
+pwd 9
+pwd -
+pwd /
+pwd w
+pwd g
+pwd 7
+pwd 5
+pwd h
+pwd r
+pwd k
+pwd ;
+dirs;
+pwd -P
+pwd cd
+pwd ./
+pwd ls
+pwd ar
+pwd p;
+pwd le
+pwd */
+pwd Is
+pwd is
+pwd dr
+pwd !$
+pwd -L
+pwd Dr
+pwd hi
+pwd IS
+pwd CD
+pwd ..
+pwd DC
+pwd dc
+
+
+List names of all the files in the current directory, one file per line.
+ls
+ls;
+ls *
+ls .
+ls ;
+ls;:
+ls -1
+ls -h
+ls -c
+ls -p
+ls **
+ls -r
+ls -t
+ls -v
+ls -A
+ls -D
+ls -F
+ls ./
+ls -L
+ls -b
+ls -S
+ls -q
+ls -G
+ls -u
+ls -N
+ls --
+ls -H
+ls -X
+ls *;
+ls -k
+ls -A1
+ls -c1
+ls -1h
+ls -1A
+ls -tr
+ls -1v
+ls -1r
+ls -AL
+ls -x1
+find *
+ls|cat
+ls -w1
+ls -t1
+ls -C1
+ls $pw
+ls -A;
+ls --l
+ls -AN
+ls -m1
+ls -LA
+
+There is a file named access.log in the current directory. Print the contents.
+ul<*
+ul *
+cat *
+ul <*
+ul a*
+ul< *
+ul<>*
+ul<*;
+cat a*
+ul ac*
+ul < *
+cat **
+cat *;
+cat ac*
+tail a*
+cat ./*
+cat acc*
+ul < ac*
+cat *log
+cat *.log
+cat acce*
+cat acces*
+cat<acces*
+cat *.log*
+cat access*
+cat acc*log
+echo |cat *
+echo| cat *
+cat<access*
+cat < acce*
+ul access.*
+cat access.*
+cat *cess.l*
+cat acc*.log
+echo | cat *
+ul<access.log
+ul access.log
+awk '$1' acc*
+cat acce*.log
+cat acces*log
+cat access.log
+ul< access.log
+cat<access.log
+ul <access.log
+ul<*access.log
+cat -v access*
+ul *access.log
+cat access*log
+cat a??ess.log
+tail access.log
+
+Print the last 5 lines of "access.log".
+tail -5 *
+tail -5<*
+tail -5 a*
+tail -n5 *
+tail -5 <*
+tail -5 **
+tail -5 *g
+tail -5< *
+tail -5 *;
+tail -5 *&
+tail -n5 a*
+tail -5 ac*
+tail -5 *.*
+tail -n 5 *
+tail -5 ./*
+tail * -n 5
+tail -5 * ;
+tail -5 acc*
+tail -5 *log
+tail -n 5 a*
+tail -n 5 **
+tail -n5 ac*
+tail -n 5 ac*
+tail -5 *.log
+tail acc* -n5
+tail -5 acce*
+tail -n 5 a*g
+cat *|tail -5
+tail -n 5 < *
+tail -5 <acc*
+tail -5 acces*
+tail -n 5 acc*
+tail -n5 *.log
+cat *| tail -5
+sed -n 6,10p *
+tail -5 access*
+cat * | tail -5
+tail -n 5 *.log
+cat a* |tail -5
+tail -n 5 acce*
+tail -n 5 *acc*
+tail -5 *ss.log
+tail -5 ac*.log
+tail -n 5 acces*
+cat * | tail -n5
+tail -5 access.*
+tail -5 acc*.log
+cat a* | tail -5
+cat *| tail -n 5
+tail -n 5 access*
+
+Create an empty file named take-the-command-challenge in the current working directory.
+>take-the-command-challenge
+>>take-the-command-challenge
+> take-the-command-challenge
+:>take-the-command-challenge
+c>take-the-command-challenge
+>take-the-command-challenge;
+j>take-the-command-challenge
+s>take-the-command-challenge
+*>take-the-command-challenge
+>> take-the-command-challenge
+cd>take-the-command-challenge
+* >take-the-command-challenge
+: >take-the-command-challenge
+> take-the-command-challenge;
+>take-the-command-challenge .
+c> take-the-command-challenge
+:> take-the-command-challenge
+>./take-the-command-challenge
+*> take-the-command-challenge
+cp>take-the-command-challenge
+$> take-the-command-challenge
+CD>take-the-command-challenge
+$ >take-the-command-challenge
+cs>take-the-command-challenge
+: > take-the-command-challenge
+cd> take-the-command-challenge
+* > take-the-command-challenge
+cd >take-the-command-challenge
+cd>>take-the-command-challenge
+$ > take-the-command-challenge
+> ./take-the-command-challenge
+cd>take-the-command-challenge;
+nul>take-the-command-challenge
+cp> take-the-command-challenge
+> take-the-command-challenge .
+NUL>take-the-command-challenge
+:>./take-the-command-challenge
+Cd> take-the-command-challenge
+cp >take-the-command-challenge
+nil>take-the-command-challenge
+:>> take-the-command-challenge
+NUL> take-the-command-challenge
+cd > take-the-command-challenge
+$cat>take-the-command-challenge
+nul >take-the-command-challenge
+nul> take-the-command-challenge
+"" > take-the-command-challenge
+cd>take-the-command-challenge ;
+null>take-the-command-challenge
+cp > take-the-command-challenge
+
+Create a directory named tmp/files in the current working directory
+Hint: The directory "tmp/" doesn't exist, with one command you need to create both "tmp/" and "tmp/files"
+mkdir -p tmp/files
+mkdir tmp/files -p
+mkdir -p tmp/files
+mkdir tmp/files -p
+mkdir tmp{,/files}
+mkdir tmp/{,files}
+mkdir tmp tmp/files
+mkdir -vp tmp/files
+mkdir -p tmp/files/
+mkdir --p tmp/files
+mkdir -pv tmp/files
+mkdir tmp/files/ -p
+mkdir -p tmp/files;
+mkdir tmp tmp/files
+mkdir -p tmp/files/
+mkdir -pv tmp/files
+mkdir --p tmp/files
+mkdir -vp tmp/files
+mkdir -p tmp/files;
+mkdir tmp/files/ -p
+mkdir ./tmp/files -p
+mkdir -p tmp/files .
+mkdir tmp tmp/files/
+install -d tmp/files
+mkdir tmp/ tmp/files
+mkdir -p ./tmp/files
+mkdir tmp/ tmp/files
+mkdir ./tmp/files -p
+mkdir tmp tmp/files/
+install -d tmp/files
+mkdir -p . tmp/files
+mkdir -p tmp/files .
+mkdir -pv tmp/files/
+mkdir -p tmp/files *
+mkdir ./tmp/{,files}
+mkdir -p / tmp/files
+mkdir --p tmp/files/
+mkdir tmp tmp/files;
+mkdir -p tmp/fil``es
+mkdir ./tmp/files/ -p
+mkdir -p ./tmp/files/
+mkdir {tmp,tmp/files}
+mkdir tmp , tmp/files
+mkdir tmp/ tmp/files/
+mkdir -pv ./tmp/files
+mkdir tmp ./tmp/files
+mkdir tmp / tmp/files
+mkdir ./tmp tmp/files
+mkdir -p -v tmp/files
+mkdir {tmp,tmp/files}
+
+Copy the file named take-the-command-challenge to the directory tmp/files
+cp **
+cp **/*
+cp * */*
+cp **/**
+cp t* */*
+cp * **/*
+cp * tmp/*
+cp ta* */*
+cp * **/**
+cp t* tmp/*
+cp * tmp/f*
+cp *e *p/*s
+cp t* tmp/f*
+cp ta* tmp/*
+cp ta* t*/f*
+cp ta* tmp/f*
+cp * **/files
+cp -r * tmp/*
+cp * tmp/files
+cp *enge */*es
+cp take* tmp/*
+cp tak* tmp/f*
+cp t* tmp/files
+cp * tmp/files/
+cp * tmp/files*
+cp take* tmp/f*
+cp take-* tmp/*
+cp tak*ge t*/f*
+cp ** tmp/files
+cp tak* tmp/fi*
+cp ta* tmp/files
+cp * ./tmp/files
+cp take* tmp/fi*
+cp take-* tmp/f*
+cp take*ge t*/f*
+cp ./* tmp/files
+cp * . tmp/files
+cp tak* tmp/files
+cp ta* tmp/files/
+cp ./t* tmp/files
+cp take-t* tmp/f*
+cp t* ./tmp/files
+cp take* tmp/fil*
+cp cp take* tmp/*
+cp take-* tmp/fi*
+cp -R . tmp/files
+cp t*ge tmp/files
+cp * to tmp/files
+cp -r * tmp/files
+cp take* tmp/files
+
+Move the file named take-the-command-challenge to the directory tmp/files
+mv **
+mv **/*
+mv * **
+mv - **
+mv * */*
+mv **/**
+mv t* */*
+mv * **/*
+mv * tmp/*
+mv ta* */*
+mv * **/**
+mv * t*/f*
+mv t* tmp/*
+mv * tmp/f*
+mv * tmp/*/
+mv *e *p/*s
+mv ta* t*/f*
+mv t* */*les
+mv t* tmp/f*
+mv t* tmp/*/
+mv *.* **/**
+mv ta* tmp/*
+mv take* */*
+mv ta* tmp/f*
+mv tak* tmp/*
+mv *.* **//**
+mv * tmp/files
+mv take* tmp/*
+mv take* t*/f*
+mv tak* tmp/f*
+mv *enge tmp/*
+mv t* ./tmp/f*
+mv t* tmp/fil*
+mv t* tmp/files
+mv * tmp/files/
+mv take-* tmp/*
+mv -f ta* tmp/*
+mv take* tmp/f*
+mv ** tmp/files
+mv tak* tmp/fi*
+mv ta* tmp/files
+mv t * tmp/files
+mv * ./tmp/files
+mv -ttmp/files *
+mv *ge tmp/files
+mv take* tmp/fi*
+mv t* tmp/files/
+mv take-* tmp/f*
+mv take-t* t*/f*
+mv take*ge t*/f*
+
+A symbolic link is a type of file that is a reference to another file.
+Create a symbolic link named take-the-command-challenge that points to the file tmp/files/take-the-command-challenge.
+ln -s */*/*
+ln -s t*/*/*
+ln -s tmp/*/*
+ln -s ./*/*/*
+ln -s t*/f*/t*
+ln -s tmp*/*/*
+ln -s **/*/ta*
+ln -s tmp/f*/*
+ln -s tmp/*/* .
+ln -s tmp/f*/t*
+ln -s ./tmp/*/*
+ln -s tmp/*/ta*
+ln -s t*/f*/ta*
+ln -s t*/*/take*
+ln -s tmp/*/tak*
+ln -s tmp/f*/ta*
+ln -s tmp/files/*
+ln -s tmp/*/take*
+ln -s tmp/fi*/ta*
+ln tmp/files/* -s
+ln -s tmp/f*/tak*
+ln -s t*/f*/take*
+ln -s tmp*/*/tak*
+ln -s tmp/files/t*
+ln -s tmp/f*/ta* .
+ln -s tmp/f*/take*
+ln -s tmp/fi*/tak*
+ln -s tmp/files/ta*
+ln -s ./tmp/files/*
+ln -s tmp/fi*/take*
+ln -s tmp/fil*/tak*
+ln --symbolic */*/*
+ln -s tmp/files/tak*
+ln -s -v tmp/files/*
+ln -s tmp/f*/take* .
+ln -s tmp/fil*/take*
+ln -s tmp/fi*/take-*
+ln -s tmp/files/take*
+ln tmp/files/take* -s
+ln -s tmp/*/*challenge
+ln -s tmp/files/take-*
+ln -s tmp/files*/take*
+ln -s tmp/f*/take-the*
+ln -s tmp/files/take* .
+ln -s ./tmp/files/take*
+ln -s tmp/*/*challenge*
+ln -s tmp/files/take-t*
+ln -s tmp/files*/take-*
+cp -s tmp/files/take-* .
+ln -s tmp/files/take-* .
+
+
+Delete all of the files in this challenge directory including all subdirectories and their contents.
+Hint: There are files and directories that start with a dot ".", "rm -rf *" won't work here!
+
+rm -r .* *
+rm -r * .*
+rm -R .* *
+rm -r .* *
+rm -r * .*
+rm -R .* *
+rm -R * .*
+rm .* * -r
+rm .* * -R
+rm * .* -R
+rm * .* -r
+rm .* -R *
+rm * -r .*
+rm -rf .* *
+rm -rf * .*
+rm -R  * .*
+rm -rv .* *
+rm -fr .* *
+rm -r .* **
+rm -rd .* *
+rm * .* -rf
+rm -fr * .*
+rm -Rf .* *
+rm --r .* *
+rm -Rf * .*
+rm -r ** .*
+rm -rr .* *
+rm -rf * .*
+rm -rf .* *
+rm -fr * .*
+rm .* * -rf
+rm -Rf * .*
+rm -rr * .*
+rm -r * .*;
+rm -fr .* *
+rm -Rf .* *
+rm -fR * .*
+rm -rv .* *
+rm -rv * .*
+rm * .* -rf
+rm -rd .* *
+rm -R ** .*
+rm -r .* **
+rm .* -rf *
+rm -r ** .*
+rm -rr .* *
+rm -dr .* *
+rm * -rf .*
+rm -vr * .*
+rm --r .* *
+
+There are files in this challenge with different file extensions. Remove all files with the .doc extension recursively in the current working directory.
+rm **/*d*
+rm **/*oc
+rm **/*doc
+rm **/*.d*
+rm **/**d*
+rm **/*oc*
+rm **/*.doc
+rm **/**doc
+rm **/*doc*
+rm **/**.doc
+rm ./**/*doc
+rm /**/*.doc
+rm **/*.doc*
+rm -r **/*oc
+rm -R **/*d*
+rm **/**.*oc
+rm -r **/*d*
+rm /**/**doc
+rm -r **/*doc
+rm -R **/*doc
+rm /r **/*doc
+rm ./**/*.doc
+rm /**/**.doc
+rm -v **/*doc
+rm -f **/*doc
+rm .r **/*doc
+rm **/*doc rm
+rm /**/*.doc*
+rm **/*doc -R
+rm . **/*.doc
+rm r **/**doc
+rm **/**/*doc
+rm -r **/*.d*
+rm . /**/*doc
+rm -R **/*.d*
+rm - **/*.doc
+rm -r **/*.doc
+rm -R **/*.doc
+rm -rf **/*doc
+rm rf **/*.doc
+rm -f **/*.doc
+rm -v **/*.doc
+rm -rv **/*doc
+rm -r **/**doc
+rm -- **/*.doc
+rm -vr **/*doc
+rm **/*.doc -r
+rm r **/**.doc
+rm **/**/*.doc
+rm -Rv **/*doc
+
+There is a file named access.log in the current working directory. Print all lines in this file that contains the string "GET".
+grep G *
+grep GE *
+grep G a*
+grep .G *
+grep G **
+grep GET *
+grep GET a*
+grep GET **
+grep GET* *
+grep -hr GET
+grep GET* a*
+grep GET *.*
+grep GET ac*
+grep GET ***
+grep G **log
+grep get -i *
+grep -i get *
+grep -r GET *
+grep GET -r *
+grep GET *log
+grep GET* ac*
+grep -i GET *
+grep GET *ac*
+grep GET **/*
+grep GET acce*
+grep GET *.log
+grep -rh "GET"
+grep GET* *log
+grep "GET" acc*
+grep GET acc*og
+grep GET acces*
+cat * |grep GET
+grep GET **.log
+grep GET access*
+grep GET acce*.*
+grep "GET " acc*
+grep -r -h "GET"
+cat *|grep "GET"
+grep GET access.*
+cat acc*|grep GET
+grep GET* access*
+grep G access.log
+cat acc*|grep G *
+grep GET acc*.log
+cat acc* |grep GET
+grep GE access.log
+cat acc*| grep GET
+cat * | grep "GET"
+grep GET<access.log
+grep GET <access.log
+
+Print all files in the current directory, one per line (not the path, just the filename) that contain the string "500".
+grep 500 -lR
+grep 500 -lr
+grep -lr 500
+grep -lR 500
+grep 500 -rl
+grep -Rl 500
+rgrep 500 -l
+rgrep -l 500
+grep 500 * -l
+grep -lir 500
+grep -irl 500
+grep -iRl 500
+grep 500 -lnr
+grep 500  -Rl
+grep -rwl 500
+fgrep -rl 500
+grep -Rls 500
+grep 500 -lor
+grep 500 -irl
+grep -lrn 500
+grep 500 -ilr
+fgrep -lr 500
+grep -lnr 500
+grep 500 -Ril
+grep -rhl 500
+grep 500 -rwl
+grep 500 -lir
+grep 500 -laR
+grep 500 -lrR
+grep 500 -ilR
+grep 500 -lrr
+grep 500 -lrn
+grep -lro 500
+grep 500 -ril
+grep -rlc 500
+grep -Rln 500
+grep -ls 500 *
+grep -rl 500 *
+grep -lR 500 *
+grep -l 500 **
+grep -rl "500"
+grep 500 * -ls
+grep -lr 500 *
+grep -l -r 500
+grep -R 500 -l
+grep -l -R 500
+fgrep -l 500 *
+grep -l 500 a*
+egrep -l 500 *
+grep 500 -r -l
+
+Print the relative file paths, one path per line for all filenames that start with "access.log" in the current directory.
+ls
+ls;
+ls *
+ls .
+ls ;
+ls a*
+ls -1
+ls -r
+ls -A
+ls -L
+ls -u
+ls -h
+ls -p
+ls -t
+ls ./
+ls **
+ls -v
+ls -c
+ls -F
+ls ac*
+find *
+ls -rt
+ls *.*
+ls ./*
+ls -1D
+ls -a *
+ls acc*
+ls -d *
+ls $PWD
+ls $pwd
+find **
+ls -1 *
+ls -r *
+ls -1rt
+ls **/*
+ls -v .
+ls -A *
+ls *lo*
+find ./*
+ls **/a*
+ls acce*
+ls **.**
+ls -1 **
+ls a*.l*
+ls *acc*
+ls -L a*
+ls *log*
+ls -ad *
+ls -p -r
+ls acces*
+
+
+Print all matching lines (without the filename or the file path) in all files under the current directory that start with "access.log" that contain the string "500".
+Note that there are no files named access.log in the current directory, you will need to search recursively.
+grep -rh 500
+grep 500 -hR
+grep 500 -hr
+grep -hr 500
+grep -hR 500
+rgrep 500 -h
+grep -irh 500
+grep 500 -rhr
+grep 500 -ihr
+grep 500 -rwh
+grep -iRh 500
+grep -rhR 500
+grep 500 -Rhi
+grep -rhr 500
+grep 500 -irh
+grep -ihr 500
+grep -rih 500
+grep 500 -rhw
+egrep -hr 500
+grep -hrs 500
+egrep -rh 500
+grep -rHh 500
+grep -hiR 500
+grep 500 -hir
+grep "500" -rh
+grep -Rh 500 .
+grep -Rh "500"
+grep -h -r 500
+grep 500 * -Rh
+grep 500 * -rh
+grep "500" -Rh
+grep 500 -r -h
+grep 500 * -hR
+grep -hr 500 *
+grep 500 -h -r
+grep -r 500 -h
+grep 500 -rh *
+grep -hR 500 .
+grep -hR 500 *
+grep 500 -Rh *
+grep -h 500 -r
+grep -R -h 500
+grep 500 . -rh
+grep 500 -wihr
+grep 500 -rh .
+rgrep 500 . -h
+grep -ihR "500"
+grep -irh 500 *
+grep -rhi 500 .
+grep -sh 500 **
+
+Extract all IP addresses from files that start with "access.log" printing one IP address per line.
+grep -ro ^[*-9]*
+grep -ro ^[.-9]*
+grep -or ^[*-9]*
+grep ^[.-9]* -ro
+grep -or ^[.-9]*
+grep -Ro ^[*-9]*
+grep ^[*-9]* -ro
+grep -or ^[,-9]*
+grep -ro ^[0-9.]*
+grep -ro ^[.0-9]*
+grep -oR ^[0-9.]*
+grep -or ^[.0-9]*
+grep -or ^[0-9.]*
+grep -Ro ^[0-9.]*
+grep ^[0-9.]* -ro
+grep -ro ^[0.-9]*
+grep -roh ^[.-9]*
+grep -ro ^[.*-9]*
+grep -ro ^[*-9]*&
+grep ^[*-9]* -roh
+grep ^[.0-9]* -or
+grep -rho ^[*-9]*
+grep -roh ^[*-9]*
+egrep -ro ^[*-9]*
+grep -Rho ^[*-9]*
+egrep ^[.-9]* -ro
+grep -ro ^[*-9.]*
+grep -ohr ^[*-9]*
+grep ^[.0-9]* -ro
+grep -roo ^[*-9]*
+grep -ro ^[*-9*]*
+grep -ro ^[*.-9]*
+grep -ro ^[*,-9]*
+grep -ro ^[-0-9.]*
+grep -roh ^[0-9.]*
+grep -rho ^[0-9.]*
+grep -hro ^[0-9.]*
+grep -roP ^[0-9.]*
+grep -ro ^[0-9.*]*
+grep -ro ^[.0-99]*
+grep -row ^[.0-9]*
+grep ^[0-9.]* -roR
+grep -ro ^[0.-9.]*
+grep -roh ^[0.-9]*
+grep -ro ^[0-9/.]*
+grep ^[0-9.]* -roh
+grep -ro ^[*-9]* *
+grep -o -r ^[*-9]*
+grep -ro ^[*0-9.]*
+grep -or ^[0-9.*]*
+
+Count the number of files in the current working directory. Print the number of files as a single integer.
+ls -R|wc -l
+ls -n|wc -l
+ls -l|wc -l
+ls -A|wc -l
+ls -s|wc -l
+ls -n |wc -l
+ls -R |wc -l
+ls -l |wc -l
+ls -R| wc -l
+ls -A1|wc -w
+ls -A| wc -l
+ls -R| wc -w
+ls -n| wc -l
+ls -l| wc -l
+ls -R|wc -ll
+ls -A |wc -l
+ls -s |wc -l
+ls -AU|wc -l
+ls -rl|wc -l
+ls -lr|wc -l
+ls -s| wc -l
+ls -lc|wc -l
+ls -l1|wc -l
+ls -lh|wc -l
+ls -ls|wc -l
+ls -Fl|wc -l
+ls -R | wc -l
+ls -l | wc -l
+ls -A | wc -l
+ls -l1 |wc -l
+ls -n | wc -l
+ls -ls| wc -l
+ls -R | wc -w
+ls -A1 |wc -l
+ls -A | wc -w
+ls -ltr|wc -l
+ls -s | wc -l
+ls -Ap |wc -l
+ls -rl |wc -l
+ls -ls |wc -l
+ls -ll |wc -l
+ls -ls | wc -l
+ls -A1 | wc -l
+ls -lF | wc -l
+ls -1A | wc -l
+ls -rl | wc -l
+ls -l1 | wc -l
+ls -lh | wc -l
+ls -R1 | wc -l
+ls -lrt| wc -l
+
+Print the contents of access.log sorted.
+sort *
+sort a*
+sort **
+sort ac*
+sort acc*
+sort *log
+sort a*.*
+sort *.log
+cat *|sort
+ls |sort *
+sort acce*
+sort acces*
+cat * |sort
+cat *| sort
+cat a*|sort
+sort *.log*
+ls | sort *
+sort access*
+cat a* |sort
+cat * | sort
+cat a*| sort
+cat a* | sort
+sort access.*
+sort **/*.log
+cat ./* | sort
+sort access.log
+cat acc* | sort
+cat a* | sort *
+sort access.log*
+sort <access.log
+sort *access.log
+cat *.log | sort
+cat -s acc*|sort
+sort **/acc*.log
+sort < access.log
+sort ./access.log
+sort -d access.log
+sort -b access.log
+sort ./access.log*
+sort -s access.log
+sort -u access.log
+sort -f access.log
+cat access* | sort
+cat access.log|sort
+sort -k1 access.log
+sort access.log|cat
+ls |sort access.log
+cat access.log| sort
+cat access.log |sort
+ls | sort access.log
+
+Print the number of lines in access.log that contain the string "GET".
+grep -c G *
+grep -c G **
+grep -c GE *
+grep -c GET *
+grep GET * -c
+grep -c G.T *
+grep GET -c *
+grep -Rsch GET
+grep -c GET a*
+grep -ic GET *
+grep -ci get *
+grep -c GET ***
+grep -rhc 'GET'
+grep -rhc "GET*"
+grep GET *|wc -l
+grep -c "GET" **
+grep -rc 'GET' *
+grep -c GET *log
+grep "GET" -c **
+grep -c -R GET *
+grep G * | wc -l
+grep -c -i get *
+grep GET -c acc*
+grep GET -R|wc -l
+grep GET a*|wc -l
+grep -rhoc "GET*"
+grep GET *| wc -l
+grep GET * |wc -l
+grep "GET" -c ***
+grep GET * | wc -l
+grep -c "GET" acc*
+grep GET -R |wc -l
+grep GET -R| wc -l
+grep -r -c 'GET' *
+grep -r GET |wc -l
+grep GET -r| wc -l
+grep GET a*| wc -l
+grep GET a* |wc -l
+grep -r "GET"|wc -l
+grep -r GET* |wc -l
+grep GET -R | wc -l
+grep GET -r | wc -l
+grep GET acc*|wc -l
+grep -c GET access*
+grep -ro GET*|wc -l
+grep -r -h -c GET .
+grep -R GET* |wc -l
+grep -rh GET |wc -l
+grep -R "GET"|wc -l
+cat * | grep -c GET
+
+The file split-me.txt contains a list of numbers separated by a ; character.
+Split the numbers on the ; character, one number per line.
+bc<*
+bc<s*
+bc< *
+bc <*
+bc<sp*
+bc <s*
+bc < *
+seq 10
+bc < s*
+bc < sp*
+bc<spli*
+seq 1 10
+cat *|bc
+bc<split*
+cat * |bc
+cat *| bc
+bc< split*
+bc <split*
+cat * | bc
+bc<split-m*
+bc < split*
+cat * |bc -l
+tr ';' '\n'<*
+tr ";" "\n"<*
+cat split*|bc
+cat * | bc -l
+tr ';' '\n'<s*
+tr ";" "\n" <*
+tr ';' '\n' <*
+tr ';' '\n'< *
+tr ";" "\n"<**
+cat split**|bc
+cat split* |bc
+tr ';' '\n' <s*
+tr ';' '\n' < *
+bc<split-me.txt
+paste -sd+ *|bc
+cat split* | bc
+tr ";" "\n"< s*
+tr ";" "\n" <**
+tr ";" "\n" <s*
+tr "; " "\n" < *
+bc<split-me.txt*
+bc <split-me.txt
+tr ';' '\n' < s*
+bc< split-me.txt
+tr ";" "\n" < s*
+cat split** | bc
+bc < split-me.txt
+cat *|tr ';' '\n'
+
+Print the numbers 1 to 100 separated by spaces.
+echo {1..100}
+seq 100|xargs
+seq -s ' ' 100
+seq 100| xargs
+seq 100 |xargs
+echo $(seq 100)
+seq 1 100|xargs
+seq 100 | xargs
+seq -s ' ' 1 100
+seq 1 100| xargs
+echo `seq 1 100`
+seq 1 100 |xargs
+echo $( seq 100)
+echo -n {1..100}
+echo $(seq 1 100)
+seq -s' ' 1 1 100
+seq 1 100 | xargs
+seq -s ' ' 1 1 100
+echo $( seq 1 100)
+echo $(seq 1 100 )
+echo -n $(seq 100)
+seq 1 1 100 | xargs
+echo $(seq 1 1 100)
+seq 100 | xargs echo
+a=`seq 100`; echo $a
+echo -n  $(seq 1 100)
+echo $(seq -s' ' 100)
+seq 1 100 | xargs echo
+IFS=" "; echo {1..100}
+seq -s" " 1 100 | sort
+seq 100 | paste -sd' '
+seq -sx 1 100|tr x ' '
+NUM=" "; echo {1..100}
+seq 100 | paste -sd " "
+seq 100 | xargs echo -n
+seq --separator " " 100
+seq --separator=' ' 100
+seq -s' ' 1 100|sort -n
+seq -s " " 100 | sort -n
+seq -s' ' $counter 1 100
+echo $(seq -s " " 1 100)
+seq -sx 1 100 | tr x ' '
+seq --separator=" " 1 100
+seq --separator ' ' 1 100
+seq 1 100 | paste -sd ' '
+seq 1 100|paste -s -d " "
+seq 1 100 | xargs echo -n
+seq 1 100 | xargs echo $1
+echo {1..100} | tr "" " "
+seq -s' ' 1 100 | sort -n
+
+This challenge has text files (with a .txt extension) that contain the phrase "challenges are difficult". Delete this phrase from all text files recursively.
+Note that some files are in subdirectories so you will need to search for them.
+sed -i ch **/*txt
+sed -i cd **/*txt
+sed -i cha **/*txt
+sed -i "d" **/*txt
+sed -i ch **/*.txt
+sed -i cd **/*.txt
+sed -i che **/*txt
+sed -i ch **/*txt*
+sed -i ch **/**txt
+sed -i ch* **/*txt
+sed -i "d" **/*.txt
+sed -i cha* **/*txt
+sed -i cha **/*.txt
+sed -i ch **/**.txt
+sed -i chal **/*txt
+sed -i chan **/*txt
+sed -i "d" **/**.txt
+sed -i cha* **/*.txt
+sed -i cha **/**.txt
+sed -i chal* **/*txt
+sed -i chat **/**txt
+sed -i chall* **/*txt
+sed -i chal* **/*.txt
+sed -i call* **/*.txt
+sed -i chell* **/*txt
+sed -i 'ch*' **/*.txt
+sed -i chan* **/*.txt
+sed -i cha* **/**.txt
+sed -i chall* **/*.txt
+sed -i challa* **/*txt
+sed -i 'chall' **/*txt
+sed -i challen **/*txt
+sed -i chal* **/**.txt
+sed -i chall **/**.txt
+sed -i cd **/**/*.txt*
+sed -i "chal" **/*.txt
+sed -i 'chall' **/*.txt
+sed -i chall* **/**.txt
+sed -i challe* **/*.txt
+sed -i chall** **/*.txt
+sed -i=test cha **/*txt
+sed -i challen* **/*.txt
+sed -i "challe*" **/*txt
+sed -i "chall*" **/**txt
+sed -ir "chal*" **/*.txt
+sed -ir "chal" **/**.txt
+sed -i 'chalenge' **/*txt
+sed -i challenge* **/*txt
+sed -i challange **/*.txt
+sed -i 'chall*/d' **/*txt
+
+The file sum-me.txt has a list of numbers, one per line. Print the sum of these numbers.
+jq -s add *
+jq -s add sum*
+paste -sd+ *|bc
+jq -s add < su*
+cat *|jq -s add
+paste -sd+ * |bc
+paste -sd+ *| bc
+jq -s add < sum*
+paste -sd + *|bc
+paste -sd+ s*|bc
+paste -sd+ * | bc
+paste -sd + *| bc
+paste -sd + * |bc
+paste -sd + s*|bc
+paste -sd + * | bc
+cat sum*|jq -s add
+paste -sd+ s* | bc
+paste -sd+ sum*|bc
+paste -d + -s *| bc
+paste -sd+ sum* |bc
+cat sum* |jq -s add
+cat su* | jq -s add
+paste -sd+ s** | bc
+cat sum*| jq -s add
+paste -sd + s* | bc
+cat sum-*|jq -s add
+paste -sd+ sum* | bc
+cat sum* | jq -s add
+jq -s add sum-me.txt
+paste -sd + sum* |bc
+jq -s add <sum-me.txt
+cat *| paste -sd+ |bc
+paste -sd+ *.txt | bc
+cat sum-me*|jq -s add
+paste -sd + sum* | bc
+jq -s add < sum-me.txt
+cat sum-me*| jq -s add
+cat sum-me* |jq -s add
+cat * | paste -sd+ | bc
+paste -s -d+ *.txt | bc
+cat sum-me* | jq -s add
+paste -sd+ sum-me.txt|bc
+cat sum-me.txt|jq -s add
+paste -sd+ sum-me.txt |bc
+cat sum-me.txt |jq -s add
+paste -sd + sum-me.txt|bc
+paste -sd+ sum-me.txt| bc
+cat sum-me.txt| jq -s add
+paste -sd+ sum-me.txt | bc
+paste -sd + sum-me.txt |bc
+
+Print all files in the current directory recursively without the leading directory path.
+ls -R|grep [a-z]
+ls -R|grep [A-z]
+ls -R|grep [b-z]
+ls -R|grep ^[a-z]
+ls -R |grep [a-z]
+ls -R| grep [a-z]
+ls -R| grep [A-z]
+ls -RA|grep [a-z]
+ls -R |grep [A-z]
+ls -R|grep ^[A-z]
+ls -R | grep [a-z]
+ls -R |grep ^[a-z]
+ls -R | grep [a-c]
+ls -R |grep ^[A-z]
+ls -RA |grep [a-z]
+ls -R | grep ^[a-z]
+ls -AR | grep [a-z]
+ls -aR | grep [a-z]
+ls -R|grep -i [a-z]
+ls -R|grep [a-zA-Z]
+ls -LR | grep [a-z]
+ls -R | grep ^[A-z]
+ls -aR| grep ^[a-z]
+ls -R|grep [A-Za-z]
+ls -RA | grep [a-z]
+ls -hR | grep ^[a-z]
+ls -AR | grep ^[a-z]
+ls -R | grep '[A-z]'
+ls -R |grep [A-Za-z]
+ls -R |grep -i [a-z]
+ls -R |grep [a-zA-Z]
+ls -R . | grep [A-z]
+ls -AR|grep [a-zA-Z]
+ls -R |grep -i [A-Z]
+ls -R | grep [a-zA-Z]
+ls -R | grep [A-Za-z]
+ls -R | grep -i [a-z]
+ls -R | grep -i [A-z]
+ls -R | grep [a-zA-z]
+ls -R |egrep [A-Za-z]
+ls -R | grep [a-z] -i
+ls -R | grep -i [A-Z]
+ls -R | egrep  ^[a-z]
+ls -AR ./ | grep [a-z]
+ls -R | grep [a-z,A-Z]
+ls -R | grep ^[A-Z] -i
+ls -R | grep ^[A-Za-z]
+ls -R | egrep [A-Za-z]
+ls -R | grep -i ^[a-z]
+ls -R|grep -P '^[a-z]'
+
+Rename all files removing the extension from them in the current directory recursively.
+rm **
+mv * .*
+mv * ..
+rm -r *
+rm -R *
+rm * -r
+rm -rf *
+mv ** .*
+rm **|ls
+rm -r **
+rm -R **
+mv * .**
+rm **;ls
+mv * /tmp
+mv * ./.*
+rm -rf **
+rm **/*.*
+rm **; ls
+rm *.* **
+rm -r * *
+rm -r ./*
+rm -r .* *
+rm -r **/*
+rm -r * .*
+mv mv * .*
+mv * .*;ls
+mv * .*|ls
+rm ** | ls
+rm -R * .*
+mv *|rm **
+rm -Rv ./*
+rm -R **/*
+mv **/* .*
+mv -v * .*
+rm -r *. *
+mv * .*; ls
+mv *| rm **
+rm ** && ls
+rm -fr *. *
+rm -R ** .*
+rm -r ** .*
+rm -r *.* *
+mv * .*&&ls
+rm -fr *, *
+rm **/* .* *
+mv * .* ; ls
+ls -R| rm **
+rm -rf *.* *
+ls -R |rm **
+mv * .* & ls
+
+The files in this challenge contain spaces. List all of the files (filenames only) in the current directory but replace all spaces with a '.' character.
+ls|tr ' ' '.'
+ls |tr ' ' '.'
+ls|tr ' ' '. '
+ls -1|tr ' ' .
+ls| tr ' ' '.'
+ls | tr ' ' '.'
+ls |tr ' ' '. '
+ls | tr ' ' '. '
+ls|sed 's| |.|g'
+ls ./|tr ' ' '.'
+ls -r|tr ' ' '.'
+ls -A|tr ' ' '.'
+ls|sed 's/ /\./g'
+ls * | tr ' ' '.'
+ls ./| tr " " "."
+ls -1 |tr ' ' '.'
+ls -A| tr ' ' '.'
+ls -1r|tr ' ' '.'
+ls| sed 's/ /./g'
+ls |sed 's/ /./g'
+ls -h |tr ' ' '.'
+ls . | tr " " "."
+ls | sed 's/ /./g'
+ls -1 | tr ' ' '.'
+ls -A | tr ' ' '.'
+ls -r | tr ' ' '.'
+ls -h | tr ' ' '.'
+ls | tr -t ' ' '.'
+ls | sed 's| |.|g'
+ls -p | tr " " "."
+ls | sed 's~ ~.~g'
+ls |sed 's/\s/./g'
+ls | sed 's\ \.\g'
+ls | sed 's/ /\./g'
+ls -r|sed 's/ /./g'
+ls |sed 's/\ /\./g'
+ls | sed 's/\ /./g'
+ls -1|sed 's/ /./g'
+ls | sed s," ",\.,g
+ls -A1 | tr " " "."
+ls | sed 's/\s/./g'
+ls | sed 's- -\.-g'
+ls|sed -E "s/ /./g"
+ls|sed -e "s/ /./g"
+ls |sed "s/\s/\./g"
+ls -1|sed 's/ /\./g'
+ls | sed 's/\ /\./g'
+ls *\ * | tr ' ' '.'
+ls|sed -r "s/ /\./g"
+ls -A| sed 's/ /./g'
+
+In this challenge there are some directories containing files with different extensions. Print all directories, one per line without duplicates that contain one or more files with a ".tf" extension.
+dirname **/*tf|uniq
+dirname **/*tf |uniq
+dirname **/*.tf|uniq
+dirname **/**tf|uniq
+dirname **/*tf| uniq
+dirname **/*tf | uniq
+dirname **/*.tf |uniq
+dirname **/*.tf| uniq
+dirname **/**.tf|uniq
+dirname **/*.tf | uniq
+dirname **/**tf | uniq
+dirname **/*.tf|sort -u
+dirname **/**.tf | uniq
+dirname **//*.tf | uniq
+dirname **/*.tf* | uniq
+dirname **/*tf| sort -u
+dirname **/*tf |sort -u
+dirname **/*tf | sort -u
+dirname **/*.tf| sort -u
+dirname **/*/*.tf | uniq
+dirname **/**.tf|sort -u
+dirname **/*.tf | sort -u
+dirname **/**.tf| sort -u
+dirname **/**tf | sort -u
+dirname **/**.tf | sort -u
+dirname $(ls **/*.tf) |uniq
+dirname **/**/*.tf | sort -u
+dirname $(ls **/*.tf) | uniq
+dirname **/*.tf | sort| uniq
+dirname **/*.tf | sort | uniq
+ls **/*tf | xargs dirname|uniq
+ls **/*.tf |xargs dirname|uniq
+ls **/*tf|xargs dirname|sort -u
+ls **/*.tf |xargs dirname| uniq
+ls **/*.tf | xargs dirname|uniq
+ls **/*tf | xargs dirname | uniq
+ls **/*tf |xargs dirname|sort -u
+ls **/*.tf | xargs dirname |uniq
+dirname $(find -name *.tf) | uniq
+ls **/*.tf | xargs dirname | uniq
+ls **/*.tf* | xargs dirname | uniq
+ls **/**.tf | xargs dirname | uniq
+ls **/*tf | xargs dirname|sort|uniq
+find -name *.tf -printf "%h\n"|uniq
+ls **/*tf | xargs dirname | sort -u
+ls **/*.tf | xargs dirname | sort -u
+find -name *.tf -printf "%h\n"| uniq
+find ./|grep tf$|xargs dirname|sort -u
+find -name '*.tf' -printf "%h\n" |uniq
+ls **/*tf | xargs dirname | sort | uniq
+
+There are a mix of files in this directory that start with letters and numbers. Print the filenames (just the filenames) of all files that start with a number recursively in the current directory.
+ls -pR|grep -v /|grep ^[0-9]
+ls -pR|grep ^[0-9]|grep -v /
+ls -Rp|grep ^[0-9]|grep -v /
+ls -pR| grep -v /|grep ^[0-9]
+ls -pR |grep -v /|grep ^[0-9]
+ls -pR|grep -v / |grep ^[0-9]
+ls -Rp|grep -v /| grep ^[0-9]
+ls -Rp| grep -v /|grep ^[0-9]
+ls -pR | grep -v /|grep ^[0-9]
+ls -pR| grep -v /| grep ^[0-9]
+ls -pR|grep -v / | grep ^[0-9]
+ls -pR| grep -v / |grep ^[0-9]
+ls -Rp | grep -v /|grep ^[0-9]
+ls -Rp | grep -v /| grep ^[0-9]
+ls -pR |grep -v / | grep ^[0-9]
+ls -pR | grep -v /| grep ^[0-9]
+ls -pR | grep ^[0-9]| grep -v /
+ls -pR | grep -v / | grep ^[0-9]
+ls -pR | grep ^[0-9] | grep -v /
+ls -Rp | grep -v / | grep ^[0-9]
+ls -pR |grep -v '/' |grep ^[0-9]
+ls -pR |grep -E ^[0-9]|grep -v /
+ls -pR|grep -v /|grep -E "^[0-9]"
+ls -Rp | grep -oE '^[0-9]+[^/]+$'
+ls -pR | grep -v / | grep ^[0-9*]
+ls -Rp | grep -v '/' |grep ^[0-9]
+ls -R | grep -v dir | grep ^[0-9]
+ls -pR|grep -v /|grep -E "^[0-9]+"
+ls -pR|grep -v /|grep -E "^[0-90]"
+ls -RF|grep '^[0-9].*$'| grep -v /
+ls -pR | grep -v / | grep "[0-9]."
+ls -p -R | grep -v / | grep ^[0-9]
+ls -R | egrep ^[0-9] | egrep -v 00
+ls -pR | grep -v / | egrep '^[0-9]'
+ls -Rp |grep -v /| grep -E '^[0-9]'
+ls -pR | grep -v /|grep -E "^[0-9]+"
+ls -pR |grep -v / |grep -E "^[0-9]+"
+ls -pR | grep -v /| grep -E "^[0-9]"
+ls -Rp | grep "^[0-9]" | grep -v "/"
+ls **/* | grep -v [:/] | grep ^[0-9]
+ls -pR | grep -v / | grep "^[0-9].*"
+ls -Rp | grep -v \/ | egrep '^[0-9]'
+ls -pR | grep -v / | grep -E "^[0-9]"
+ls -pR | grep -E "^[0-9]" | grep -v /
+ls -Rp | grep -v / | grep -E '^[0-9]'
+ls -pR | grep -v / | grep -E "^[0-9]+"
+find -type f -printf "%f\n"|grep ^[0-9]
+find -type f | grep -oE '[0-9]+[^\/]+$'
+find -type f | grep -oE '[0-9]+[^/\]+$'
+find -type f -printf "%f\n"| grep ^[0-9]
+
+Print the 25th line of the file faces.txt
+sed 25\!d *
+sed -n 25p *
+awk NR==25 *
+awk NR==25 f*
+awk NR==25 **
+sed 25\!d *.txt
+sed -n '25 p' *
+sed 25\!d face*
+sed -n 25p fac*
+sed -n '25p' fa*
+sed 25\!d faces*
+awk NR==25 face*
+awk 'NR == 25' f*
+sed -n '25,25p' *
+sed -n '25p' faces*
+head -25 * |tail -1
+sed '25!d' faces.txt
+awk NR==25 faces.txt
+head -25 * | tail -1
+sed -n '25 p' faces*
+sed '25q;d' faces.txt
+sed -ne 25p faces.txt
+sed -n '25p' <faces.*
+sed "25 !d" faces.txt
+sed -n '25p' faces.txt
+sed -n '25P' faces.txt
+sed -n '25p'<faces.txt
+head -n 25 * | tail -1
+sed -n 25,25p faces.txt
+sed -n -e 25p faces.txt
+sed -n '25 p' faces.txt
+awk "FNR==25" faces.txt
+awk 'NR==25 ' faces.txt
+head -25 face* | tail -1
+sed -n '25p' < faces.txt
+sed -n '25p' ./faces.txt
+head -25 *.txt | tail -1
+awk 'NR=="25"' faces.txt
+head -25 faces* | tail -1
+head -25 faces.txt|tail -1
+sed -n '25{p;q}' faces.txt
+cat faces.txt|awk 'NR==25'
+cat faces.txt|sed -n '25p'
+sed -ne '25,25p' faces.txt
+tail -7 faces.txt | head -1
+head -25 faces.txt| tail -1
+head -25 faces.txt |tail -1
+cat faces.txt| awk 'NR==25'
+head -n25 faces.txt|tail -1
+head -25 faces.txt | tail -1
+
+
+

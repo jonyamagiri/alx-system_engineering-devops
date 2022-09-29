@@ -1,16 +1,12 @@
 ## Command line for the win
 
-> This repository contains the tasks for `Command line for the win` project and a description of what each program or function does:
+> This repository contains the tasks for `Command line for the win` project:
 
-### Tasks
 
-#### Task: 
+### Background Context
+[CMD CHALLENGE](https://cmdchallenge.com/) is a pretty cool game challenging one on Bash skills. Everything is done via the command line and the questions are  increasingly complicated. It’s a good training to improve command line skills!
 
 
 ___
-
-#### Files:
-
-* []()
 
 

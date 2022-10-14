@@ -33,15 +33,34 @@ Write a Bash script that displays:
 #### Task: 8-beheaded_process
 Write a Bash script that kills the process `7-highlander`.
 
-#### Task: 
+#### Task: 100-process_and_pid_file
+Write a Bash script that:
+* Creates the file `/var/run/myscript.pid` containing its PID
+* Displays `To infinity and beyond` indefinitely
+* Displays `I hate the kill command` when receiving a SIGTERM signal
+* Displays `Y U no love me?!` when receiving a SIGINT signal
+* Deletes the file `/var/run/myscript.pid` and terminates itself when receiving a SIGQUIT or SIGTERM signal
 
+#### Task: 101-manage_my_process, manage_my_process
+Write a `manage_my_process` Bash script that:
+* Indefinitely writes `I am alive!` to the file `/tmp/my_process`
+* In between every `I am alive!` message, the program should pause for 2 seconds
+Write Bash (init) script `101-manage_my_process` that manages `manage_my_process`
 
-#### Task: 
-
-
-#### Task: 
-
-
+#### Task: 102-zombie.c
+Write a C program that creates 5 zombie processes.
+* For every zombie process created, it displays `Zombie process created, PID: ZOMBIE_PID`
+* When your code is done creating the parent process and the zombies, use the function bellow
+```
+int infinite_while(void)
+{
+    while (1)
+    {
+        sleep(1);
+    }
+    return (0);
+}
+```
 ___
 
 #### Files:

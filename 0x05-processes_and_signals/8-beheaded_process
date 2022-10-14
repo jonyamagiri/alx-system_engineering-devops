@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Kills the process '7-highlander'
+# KILL signal can be specified as: -9; -SIGKILL or -KILL
+
+pkill -f -9 7-highlander

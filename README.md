@@ -12,11 +12,11 @@
 * [0x02-shell_redirections](https://github.com/jonyamagiri/alx-system_engineering-devops/tree/master/0x02-shell_redirections)
 * [0x03-shell_variable_expansions](https://github.com/jonyamagiri/alx-system_engineering-devops/tree/master/0x03-shell_variables_expansions)
 * [command_line_for_the_win](https://github.com/jonyamagiri/alx-system_engineering-devops/tree/master/command_line_for_the_win)
-* [0x04-loops_conditions_and_parsing]()
-* [0x05-processes_and_signals]()
+* [0x04-loops_conditions_and_parsing](https://github.com/jonyamagiri/alx-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing)
+* [0x05-processes_and_signals](https://github.com/jonyamagiri/alx-system_engineering-devops/tree/master/0x05-processes_and_signals)
 * []()
 * []()
-
+* []()
 
 
 

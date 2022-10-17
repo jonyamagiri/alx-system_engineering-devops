@@ -56,12 +56,18 @@ Write a Bash script that displays numbers from 1 to 100.
 * Displays `Buzz` when the number is a multiple of 5
 * Otherwise, displays the number. In a list format
 
-#### Task: 
+#### Task: 100-read_and_cut
+Write a Bash script that displays the content of the file `/etc/passwd` in the format: username, user id, Home directory path for the user. You must use the `while` loop (`for` and `until` are forbidden). 
 
+#### Task: 101-tell_the_story_of_passwd
+Write a Bash script that displays the content of the file `/etc/passwd`, using the `while` loop + [IFS](https://alx-intranet.hbtn.io/rltoken/8VeAz2XHCtuECDJ0PfMNIg). 
+* Format: `The user USERNAME is part of the GROUP_ID gang, lives in HOME_DIRECTORY and rides COMMAND/SHELL. USER ID's place is protected by the passcode PASSWORD, more info about the user here: USER ID INFO`
 
-#### Task: 
+#### Task: 102-lets_parse_apache_logs
+Write a Bash script using `awk`that displays the visitor IP along with the [HTTP status code](https://alx-intranet.hbtn.io/rltoken/7de-UBmf8xgwH1iSwzX1MA) from the [Apache log file](https://intranet-projects-files.s3.amazonaws.com/holbertonschool-sysadmin_devops/80/apache-access.log).
 
-
+#### Task: 103-dig_the-data
+Write a Bash script using 'awk' that groups visitors by IP and HTTP status code, and displays this data.
 
 ___
 

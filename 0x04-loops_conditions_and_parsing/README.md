@@ -67,12 +67,7 @@ Write a Bash script that displays the content of the file `/etc/passwd`, using t
 Write a Bash script using `awk`that displays the visitor IP along with the [HTTP status code](https://alx-intranet.hbtn.io/rltoken/7de-UBmf8xgwH1iSwzX1MA) from the [Apache log file](https://intranet-projects-files.s3.amazonaws.com/holbertonschool-sysadmin_devops/80/apache-access.log).
 
 #### Task: 103-dig_the-data
-Write a Bash script using 'awk' that groups visitors by IP and HTTP status code, and displays this data.
+Write a Bash script using `awk` that groups visitors by IP and HTTP status code, and displays this data.
 
 ___
-
-#### Files:
-
-* []()
-
 

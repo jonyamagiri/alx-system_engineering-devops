@@ -20,12 +20,12 @@
 start_create_file()
 {
 	./manage_my_process &
-	echo "$BASHPID" > /var/run/my_process.pid
+	echo $$ > /var/run/my_process.pid
 }
 
 stop_del_file()
 {
-	pkill -f "./manage_my_process"
+	sudo pkill -f "./manage_my_process"
 	rm /var/run/my_process.pid
 }
 

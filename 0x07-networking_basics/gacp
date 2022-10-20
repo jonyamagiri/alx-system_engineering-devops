@@ -6,6 +6,6 @@ if [ $# -eq 0 ]; then
 	echo "Usage: ./gacp {commit message}"
 else
 	git add .
-	git commit -m "$1.."
+	git commit -m "${@}"
 	git push
 fi

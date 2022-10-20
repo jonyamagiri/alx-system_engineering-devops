@@ -2,10 +2,12 @@
 # Automates the git add, commit and push command process
 # Displays 'Usage: ./gacp {commit message}' if no argument is passed
 
+commit_message=${@} # parse the commit message
+
 if [ $# -eq 0 ]; then
 	echo "Usage: ./gacp {commit message}"
 else
 	git add .
-	git commit -m "${@}"
+	git commit -m "$commit_message"
 	git push
 fi

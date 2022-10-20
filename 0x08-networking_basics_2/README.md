@@ -15,9 +15,6 @@ Write a Bash script that displays all active IPv4 IPs on the machine it’s exec
 #### Task: 
 Write a Bash script that listens on port `98` on `localhost`.
 
-#### Task: 
-
-
 ___
 
 

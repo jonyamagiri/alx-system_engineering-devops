@@ -1,8 +1,11 @@
-#!/bin/bash
+#!/bin/env bash
+# Automates the git add, commit and push command process
+# displays 'Usage: ./gacp {commit message}' if no argument is passed
 
-# script that automates the git add, commit and push command process
-git add .
-git commit -m "${@}"
-git push
-
-# Usage: ./gacp "commit message"
+if [ $# -eq 0 ]; then
+	echo "Usage: ./gacp {commit message}"
+else
+	git add .
+	git commit -m "$1"
+	git push
+fi

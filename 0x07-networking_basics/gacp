@@ -1,11 +1,11 @@
 #!/bin/env bash
 # Automates the git add, commit and push command process
-# displays 'Usage: ./gacp {commit message}' if no argument is passed
+# Displays 'Usage: ./gacp {commit message}' if no argument is passed
 
 if [ $# -eq 0 ]; then
 	echo "Usage: ./gacp {commit message}"
 else
 	git add .
-	git commit -m "$1"
+	git commit -m "$1.."
 	git push
 fi

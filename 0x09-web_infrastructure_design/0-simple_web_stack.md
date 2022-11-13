@@ -1,5 +1,7 @@
 # Simple web stack
 
+[simple_web_stack image](https://imgur.com/c6VigoM)
+
 ## Description
 
 This is a basic web infrastructure hosting a website that can be accessed by typing "www.foobar.com" into the address bar. The network of the server is not secured by SSL certificates or firewalls. The server's resources (CPU, RAM, and SSD) must be shared by each component (database, application server).

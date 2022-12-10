@@ -19,7 +19,11 @@
 * [0x08-networking_basics_2](https://github.com/jonyamagiri/alx-system_engineering-devops/tree/master/0x08-networking_basics_2)
 * [0x09-web_infrastructure_design]()
 * [0x0A-configuration_management]()
+* [0x0B-ssh]()
 * []()
+* []()
+* []()
+
 
 
 

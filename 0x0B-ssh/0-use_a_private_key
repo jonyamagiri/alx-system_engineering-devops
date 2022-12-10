@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# script that uses ssh private key ~/.ssh/school to connect to server
+# use ssh single-character flags; you cannot use -l
+
+ssh -i ~/.ssh/school ubuntu@54.198.36.23

@@ -1,0 +1,13 @@
+#!/bin/env bash
+# Automates the git add, commit and push command process
+# Displays 'Usage: ./gacp {commit message}' if no argument is passed
+
+commit_message=${@} 	# get commit message from command line
+
+if [ $# -eq 0 ]; then 	# check if commit message is present
+	echo "Usage: ./gacp {commit message}"
+else
+	git add .
+	git commit -m "$commit_message"
+	git push
+fi

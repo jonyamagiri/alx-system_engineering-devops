@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# transfers a file from our client to a server.
+# accepts 4 parameters; path to the transfer-file, IP of destination server,
+# username scp connects with, path to the SSH private key that scp uses
+# display `Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY` if less than 3 parameters passed
+
+if [ $# -lt 3 ]; then
+	echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
+elif [ $# -eq 3 ]; then
+	scp -o StrictHostKeyChecking=no "$1" "$3@$2":~/
+else
+	scp -o StrictHostKeyChecking=no -i "$4" "$1" "$3@$2":~/
+fi

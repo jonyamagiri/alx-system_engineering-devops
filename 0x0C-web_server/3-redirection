@@ -5,12 +5,5 @@
 sudo apt-get -y update
 sudo apt-get -y install nginx
 sudo echo -e "Hello World!" > /usr/share/nginx/html/index.html
+sudo sed -i "30i $ADD301_REDIRECT" /etc/nginx/sites-available/default #add at line 30
 sudo service nginx start
-sudo sed -i 's/listen 80 default_server;/listen 80 default_server;\n\
-    server { \n\
-        listen 80 default_server;\n\
-        listen [::]:80 default_server;\n\
-        server_name _;\n\
-        return 301 http://www.example.com/new-page;\n\
-    }/g' /etc/nginx/nginx.conf
-

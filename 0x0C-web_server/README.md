@@ -48,16 +48,11 @@ Configure your Nginx server to have a custom 404 page that contains the string `
 * The page must contain the string `Ceci n'est pas une page`
 * Using what you did with `3-redirection`, write `4-not_found_page_404` so that it configures a brand new Ubuntu machine to the requirements asked in this task
 
-#### Task: 
-
-
-#### Task: 
-
-
-#### Task: 
-
-
-#### Task: 
+#### Task: 7-puppet_install_nginx_web_server.pp
+Install and configure an Nginx server using Puppet instead of Bash. You should also include resources in your manifest to perform a 301 redirect when querying /redirect_me.
+* Nginx should be listening on port 80
+* When querying Nginx at its root `/` with a GET request (requesting a page) using `curl`, it must return a page that contains the string `Hello World!`
+* The redirection must be a “301 Moved Permanently”
 
 ___
 

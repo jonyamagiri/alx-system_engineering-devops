@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+# Installs and configures HAProxy version 2.6-stable (LTS) on lb-01 server running Ubuntu Focal (20.04 LTS)
+# sends traffic to web-01 & web-02 using a roundrobin algorithm
+# HAProxy managed via an init script
+
+
+# update package and install HAProxy 2.6
+sudo apt-get update
+sudo apt-get install -y --no-install-recommends software-properties-common
+sudo add-apt-repository -y ppa:vbernat/haproxy-2.6
+sudo apt-get install -y haproxy=2.6.\*
+
+# update configuration file; bind to port 80, roundrobin algorithm & distribute between two servers
+update_config=\
+"
+frontend  jonyamagiri_frontend
+        bind *:80
+        mode http
+        default_backend jonyamagiri_backend
+
+backend jonyamagiri_backend
+        balance roundrobin
+        server 66433-web-01 54.198.36.23:80 check
+        server 66433-web-02 54.236.24.182:80 check
+"
+echo "$update_config" | sudo tee -a /etc/haproxy/haproxy.cfg
+
+# update configuration file; HAProxy managed via an init script
+echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
+
+sudo service haproxy restart

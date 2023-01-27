@@ -2,4 +2,4 @@
 # Debugs & configures Nginx to run and listening on port 80
 sudo sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
 sudo service nginx restart
-sudo pkill -9 nginx
+sudo pkill -o nginx

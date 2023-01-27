@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Debugs and configures server running Nginx and listening on port 80 of all the server’s active IPv4 IPs
+
+
+# remove the existing default config
+sudo rm /etc/nginx/sites-enabled/default
+
+# create a new symlink to the default config
+sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+
+# restart nginx service
+sudo service nginx restart

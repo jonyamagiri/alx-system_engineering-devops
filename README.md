@@ -25,7 +25,7 @@
 * [0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter](https://github.com/jonyamagiri/alx-system_engineering-devops/tree/master/0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter)
 * [0x0F-load_balancer](https://github.com/jonyamagiri/alx-system_engineering-devops/tree/master/0x0F-load_balancer)
 * [0x0E-web_stack_debugging_1]()
-* []()
+* [0x10-https_ssl]()
 * []()
 * []()
 * []()

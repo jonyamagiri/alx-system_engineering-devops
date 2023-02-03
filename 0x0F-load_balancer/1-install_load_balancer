@@ -10,18 +10,18 @@ sudo apt-get install -y --no-install-recommends software-properties-common
 sudo add-apt-repository -y ppa:vbernat/haproxy-2.6
 sudo apt-get install -y haproxy=2.6.\*
 
-# update configuration file; bind to port 80, roundrobin algorithm & distribute between two servers
-cat > /etc/haproxy/haproxy.cfg << EOF
+# update configuration file; bind port 80, roundrobin algorithm & two servers
+echo '
 frontend  jonyamagiri_frontend
-    bind :80
-    mode http
-    default_backend jonyamagiri_backend
+        bind *:80
+        mode http
+        default_backend web_servers
 
-backend jonyamagiri_backend
-    balance roundrobin
-    server 66433-web-01 54.198.36.23:80 check
-    server 66433-web-02 54.236.24.182:80 check
-EOF
+backend web_servers
+        balance roundrobin
+        server 66433-web-01 54.198.36.23:80 check
+        server 66433-web-02 54.236.24.182:80 check
+' >> /etc/haproxy/haproxy.cfg
 
 # update configuration file; HAProxy managed via an init script
 echo "ENABLED=1" | sudo tee -a /etc/default/haproxy

@@ -4,9 +4,9 @@
 
 ### Learning Objectives
 
-    * What is HTTPS SSL 2 main roles
-    * What is the purpose encrypting traffic
-    * What SSL termination means
+    * What are the 2 main roles of HTTPS SSL?
+    * What is the purpose encrypting traffic?
+    * What SSL termination means?
 
 What happens when you don’t secure your website traffic?
 

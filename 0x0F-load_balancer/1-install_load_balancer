@@ -23,7 +23,5 @@ backend web_servers
         server 66433-web-02 54.236.24.182:80 check
 ' >> /etc/haproxy/haproxy.cfg
 
-# update configuration file; HAProxy managed via an init script
-echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
-
+# restart HAproxy service
 sudo service haproxy restart

@@ -1,48 +1,36 @@
 #!/usr/bin/python3
 """
-Python script that utilizes the REST API at https://jsonplaceholder.typicode.com/todos
- to retrieve information about an employee's progress on their TODO list, given their
-  employee ID.
+Python script that, uses REST API (https://jsonplaceholder.typicode.com/todos)
+for a given employee ID, returns information about his/her TODO list progress.
 """
 import requests
 import sys
 
 
-def get_user_info(user_id: int) -> dict:
-    """Retrieve user information by ID."""
-    url = f'https://jsonplaceholder.typicode.com/users/{user_id}'
-    return requests.get(url).json()
-
-
-def get_user_todos(user_id: int) -> list:
-    """Retrieve user todos by ID."""
-    url = f'https://jsonplaceholder.typicode.com/users/{user_id}/todos/'
-    return requests.get(url).json()
-
-
-def get_completed_tasks(todos: list) -> list:
-    """Filter completed todos and return their titles."""
-    completed_tasks = []
-    for todo in todos:
-        if todo.get("completed") is True:
-            completed_tasks.append(todo.get("title"))
-    return completed_tasks
-
-
 if __name__ == "__main__":
-    user_id = int(sys.argv[1])
-    user_info = get_user_info(user_id)
-    user_todos = get_user_todos(user_id)
 
-    user_name = user_info.get("name")
-    completed_tasks = get_completed_tasks(user_todos)
-    num_completed = len(completed_tasks)
-    num_todos = len(user_todos)
+    number_completed_todos = 0
+    number_of_todos = 0
+    completed_tasks = []
+    users_url = 'https://jsonplaceholder.typicode.com/users/'
+    user_url = users_url + sys.argv[1]
+    user_infos = requests.get(user_url).json()
+
+    user_name = user_infos.get("name")
+
+    user_todos_url = users_url + sys.argv[1] + '/todos/'
+    user_todos = requests.get(user_todos_url).json()
+
+    for user_todo in user_todos:
+        number_of_todos += 1
+        if (user_todo.get("completed") is True):
+            number_completed_todos += 1
+            completed_tasks.append(user_todo.get("title"))
 
     print("Employee {} is done with tasks({}/{}):".format(
         user_name,
-        num_completed,
-        num_todos
+        number_completed_todos,
+        number_of_todos
     ))
     for task in completed_tasks:
         print("\t {}".format(task))

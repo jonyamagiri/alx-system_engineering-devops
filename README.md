@@ -30,7 +30,7 @@
 * [0x12-web_stack_debugging_2](https://github.com/jonyamagiri/alx-system_engineering-devops/tree/master/0x12-web_stack_debugging_2)
 * [0x14-mysql](https://github.com/jonyamagiri/alx-system_engineering-devops/tree/master/0x14-mysql)
 * [0x15-api]()
-* []()
+* [0x17-web_stack_debugging_3]()
 * []()
 * []()
 * []()

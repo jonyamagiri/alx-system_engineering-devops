@@ -1,7 +1,7 @@
 # SSH client configured to use the private key ~/.ssh/school
 # SSH client configured to refuse to authenticate using a password
 
-Host 54.198.36.23
+Host 52.201.228.252
 
  PasswordAuthentication no
      IdentityFile ~/.ssh/school

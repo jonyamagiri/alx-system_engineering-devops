@@ -65,6 +65,7 @@ The following are the actions we are taking to address the underlying causes of 
 
 Sincerely,
 
-The `iCreate` Team
+Joab O. Nyamagiri,
+for The `iCreate` Team
 
 

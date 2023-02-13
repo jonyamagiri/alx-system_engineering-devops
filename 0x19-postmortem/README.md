@@ -14,6 +14,7 @@
 #### Task: My first postmortem
 ____
 
+![Screenshot from 2023-02-13 08-43-31](https://user-images.githubusercontent.com/95341497/218380439-73c5cc36-96d1-401b-838c-4eaebcd89ea1.png)
 
 ## Techcreative's infrastructure outage incident report
 

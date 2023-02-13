@@ -65,9 +65,7 @@ The following are the actions we are taking to address the underlying causes of 
 * Add automated tests to the deployment process.
 * Conduct regular training sessions for the deployment team.
 
-![Screenshot from 2023-02-13 09-18-48](https://user-images.githubusercontent.com/95341497/218385225-4a2ebb07-fab7-4760-b40d-c2e47c94d8c1.png)
-
-> We apologize for the impact that this outage has had on our users and customers. We are committed to improving our technology and operational processes to prevent similar incidents from happening in the future. Thank you for your patience and continued support.
+![Screenshot from 2023-02-13 09-23-00](https://user-images.githubusercontent.com/95341497/218385716-d04a7c27-afaa-4a82-badc-d1baff083d57.png) > We apologize for the impact that this outage has had on our users and customers. We are committed to improving our technology and operational processes to prevent similar incidents from happening in the future. Thank you for your patience and continued support.
 
 Sincerely,
 

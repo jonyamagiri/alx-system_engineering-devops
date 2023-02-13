@@ -11,7 +11,7 @@
 
 ### Tasks
 
-#### Task: My first postmortem
+#### Task: My first postmortem & Make people want to read your postmortem
 ____
 
 ![Screenshot from 2023-02-13 08-43-31](https://user-images.githubusercontent.com/95341497/218380439-73c5cc36-96d1-401b-838c-4eaebcd89ea1.png)
@@ -37,6 +37,8 @@ On January 17, 2023, from 12:30 PM to 1:45 PM (UTC+03:00), `iCreate` experienced
 
 ### Root Cause
 
+![Screenshot from 2023-02-13 09-08-37](https://user-images.githubusercontent.com/95341497/218383543-d95e69f2-1ab4-4a71-bfa3-e840892f10d9.png)
+
 At 12:20 PM, the code deployment team began a code deployment process to release a new version of `iCreate`. The code deployment process was automated and the code was deployed to the production environment without any human intervention. Unfortunately, a critical component of the application was not updated correctly, which caused the component to crash and bring down the entire application. The application monitoring systems quickly alerted the incident response team of the issue.
 
 ### Resolution and Recovery
@@ -46,6 +48,8 @@ At 12:32 PM, the monitoring systems alerted the incident response team who quick
 Some jobs started to recover slowly, and the team decided to perform a restart of the web application servers to ensure full recovery. By 1:45 PM, 100% of traffic was restored and `iCreate` was back to normal operation.
 
 ### Corrective and Preventative Measures
+
+![Screenshot from 2023-02-13 09-14-15](https://user-images.githubusercontent.com/95341497/218385064-0df6dd80-8b1d-46a8-b165-386f484d0063.png)
 
 The following are the actions we are taking to address the underlying causes of the issue and to help prevent recurrence and improve response times:
 * Implement a more thorough code review process before deployment to production.
@@ -60,6 +64,8 @@ The following are the actions we are taking to address the underlying causes of 
 * Review and revise the deployment process.
 * Add automated tests to the deployment process.
 * Conduct regular training sessions for the deployment team.
+
+![Screenshot from 2023-02-13 09-18-48](https://user-images.githubusercontent.com/95341497/218385225-4a2ebb07-fab7-4760-b40d-c2e47c94d8c1.png)
 
 > We apologize for the impact that this outage has had on our users and customers. We are committed to improving our technology and operational processes to prevent similar incidents from happening in the future. Thank you for your patience and continued support.
 

@@ -45,27 +45,26 @@ At 12:32 PM, the monitoring systems alerted the incident response team who quick
 
 Some jobs started to recover slowly, and the team decided to perform a restart of the web application servers to ensure full recovery. By 1:45 PM, 100% of traffic was restored and `iCreate` was back to normal operation.
 
-Corrective and Preventative Measures
+### Corrective and Preventative Measures
 
 The following are the actions we are taking to address the underlying causes of the issue and to help prevent recurrence and improve response times:
-Implement a more thorough code review process before deployment to production.
-Implement a code deployment process that requires human intervention before deployment to production.
-Implement a better mechanism for quickly delivering status notifications during incidents.
-Perform regular health checks on critical components of the web application to identify issues before they become major problems.
-Ensure that the web application monitoring systems are configured to alert the incident response team as soon as any issues arise.
-Develop a disaster recovery plan to quickly recover from similar incidents in the future.
+* Implement a more thorough code review process before deployment to production.
+* Implement a code deployment process that requires human intervention before deployment to production.
+* Implement a better mechanism for quickly delivering status notifications during incidents.
+* Perform regular health checks on critical components of the web application to identify issues before they become major problems.
+* Ensure that the web application monitoring systems are configured to alert the incident response team as soon as any issues arise.
+* Develop a disaster recovery plan to quickly recover from similar incidents in the future.
 
-Tasks:
+### Tasks
 
-Review and revise the deployment process.
-Add automated tests to the deployment process.
-Conduct regular training sessions for the deployment team.
+* Review and revise the deployment process.
+* Add automated tests to the deployment process.
+* Conduct regular training sessions for the deployment team.
 
-We apologize for the impact that this outage has had on our users and customers. We are committed to improving our technology and operational processes to prevent similar incidents from happening in the future. Thank you for your patience and continued support.
+> We apologize for the impact that this outage has had on our users and customers. We are committed to improving our technology and operational processes to prevent similar incidents from happening in the future. Thank you for your patience and continued support.
 
 Sincerely,
 
 The `iCreate` Team
-
 
 

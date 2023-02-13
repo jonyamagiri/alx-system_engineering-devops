@@ -27,8 +27,5 @@ What happens when you don’t secure your website traffic?
 #### Task: 100-redirect_http_to_https
 * Configure HAproxy to automatically redirect HTTP traffic to HTTPS.
 
-#### Task: 
-
-___
-
+__
 

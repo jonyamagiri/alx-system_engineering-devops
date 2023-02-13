@@ -49,7 +49,7 @@ Some jobs started to recover slowly, and the team decided to perform a restart o
 
 ### Corrective and Preventative Measures
 
-![Screenshot from 2023-02-13 09-14-15](https://user-images.githubusercontent.com/95341497/218385064-0df6dd80-8b1d-46a8-b165-386f484d0063.png)
+![Screenshot from 2023-02-13 09-38-04](https://user-images.githubusercontent.com/95341497/218388126-ddd8e45c-16f1-4953-8f3f-3bfd98f06760.png)
 
 The following are the actions we are taking to address the underlying causes of the issue and to help prevent recurrence and improve response times:
 * Implement a more thorough code review process before deployment to production.

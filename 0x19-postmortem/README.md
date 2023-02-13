@@ -37,7 +37,7 @@ On January 17, 2023, from 12:30 PM to 1:45 PM (UTC+03:00), `iCreate` experienced
 
 ### Root Cause
 
-![Screenshot from 2023-02-13 09-44-48](https://user-images.githubusercontent.com/95341497/218389223-02dd4198-431f-40c8-ba1e-4abe212b70be.png)
+![Screenshot from 2023-02-13 09-46-38](https://user-images.githubusercontent.com/95341497/218389483-2ab9828e-9686-4e0a-8548-3b207ce2cf62.png)
 
 At 12:20 PM, the code deployment team began a code deployment process to release a new version of `iCreate`. The code deployment process was automated and the code was deployed to the production environment without any human intervention. Unfortunately, a critical component of the application was not updated correctly, which caused the component to crash and bring down the entire application. The application monitoring systems quickly alerted the incident response team of the issue.
 

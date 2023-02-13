@@ -24,7 +24,7 @@ The following is the incident report for the "Code Deployment Error" that affect
 On January 17, 2023, from 12:30 PM to 1:45 PM (UTC+03:00), `iCreate` experienced a complete shutdown as a result of an incorrect code deployment. The application was unable to process user requests and all requests were met with 500 error response messages. At its peak, the issue affected 100% of traffic to the web application. The root cause of this outage was a code deployment error that caused a critical component of `iCreate` to crash.
 
 ### Timeline (all times UTC+03:00)
-
+| Time (UTC+03:00) | Actions |
 | -------------- | -------- |
 |12:20 PM: | Code deployment begins |
 |12:30 PM: | Outage begins |

@@ -24,15 +24,10 @@ What happens when you don’t secure your website traffic?
 #### Task: 1-haproxy_ssl_termination
 * Create a certificate using `certbot` and configure `HAproxy` to accept encrypted traffic for your subdomain `www`.
 
-#### Task: 
-
-
-#### Task: 
-
+#### Task: 100-redirect_http_to_https
+* Configure HAproxy to automatically redirect HTTP traffic to HTTPS.
 
 #### Task: 
-
-
 
 ___
 
